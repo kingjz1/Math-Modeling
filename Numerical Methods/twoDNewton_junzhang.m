@@ -7,6 +7,7 @@ y = y0;
 for i = 1:1:numIteration
     
     % DF matrix evaluated at vector x_n
+    % The derivative matrix of the given vector-valued function
     DF = [2.*(x-1) 2.*(y-1);2.*(x-2) 2.*(y-3)];
     % The vector valued function F(x_n)
     Fx = [(x-1).^2+(y-1).^2-9; (x-2).^2+(y-3).^2-10];
